@@ -5,4 +5,4 @@
   when: ansible_distribution == 'Archlinux'
 
 - name: apprise.yaml
-  include: apprise.yaml
+  include_tasks: apprise.yaml
